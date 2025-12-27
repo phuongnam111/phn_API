@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.713" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/test-classes:/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/classes:/Users/phuongnam/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/phuongnam/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/phuongnam/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/phuongnam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/phuongnam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/phuongnam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/phuongnam/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/phuongnam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/phuongnam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/phuongnam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/phuongnam/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/phuongnam/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/phuongnam/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/phuongnam/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/phuongnam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/phuongnam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/phuongnam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/phuongnam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/phuongnam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/phuongnam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar:/Users/phuongnam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar:/Users/phuongnam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar:/Users/phuongnam/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/surefire/surefirebooter-20251227223445419_3.jar /Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/surefire 2025-12-27T22-34-45_370-jvmRun1 surefire-20251227223445419_1tmp surefire_0-20251227223445419_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/test-classes:/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/classes:/Users/phuongnam/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/phuongnam/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/phuongnam/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/phuongnam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/phuongnam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/phuongnam/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/phuongnam/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/phuongnam/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/phuongnam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/phuongnam/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/phuongnam/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/phuongnam/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/phuongnam/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/phuongnam/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/phuongnam/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/phuongnam/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/phuongnam/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/phuongnam/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/phuongnam/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/phuongnam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.0/jackson-databind-2.16.0.jar:/Users/phuongnam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.0/jackson-annotations-2.16.0.jar:/Users/phuongnam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.0/jackson-core-2.16.0.jar:/Users/phuongnam/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/phuongnam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation/target/surefire/surefirebooter-20251227223445419_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="phuongnam"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/phuongnam/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/lt/882qq3nx43ld_73ng001nxtr0000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/phuongnam/Desktop/automation_test/seleniumhq-api-automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/phuongnam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testGetSeleniumHQRepositories" classname="tests.SeleniumHQTest" time="1.726">
+    <system-out><![CDATA[Found 21 repositories:
+  - selbot2 (⭐14, Issues: 0)
+  - fluent-selenium (⭐162, Issues: 2)
+  - www.seleniumhq.org (⭐180, Issues: 0)
+  - selenium (⭐33818, Issues: 236)
+  - irc-logs (⭐6, Issues: 0)
+  - docs (⭐124, Issues: 0)
+  - docker-selenium (⭐8576, Issues: 84)
+  - mobile-spec (⭐86, Issues: 5)
+  - ansible-selenium (⭐68, Issues: 1)
+  - htmlunit-driver (⭐262, Issues: 19)
+  - selenium-google-code-issue-archive (⭐345, Issues: 595)
+  - buck (⭐15, Issues: 0)
+  - selenium-maven-release-test (⭐4, Issues: 0)
+  - selenium-ide (⭐3062, Issues: 449)
+  - heroku-selenium (⭐5, Issues: 0)
+  - seleniumhq.github.io (⭐1351, Issues: 68)
+  - selenium-assistant (⭐11, Issues: 0)
+  - .github (⭐4, Issues: 0)
+  - sosc (⭐7, Issues: 0)
+  - selenium_manager_artifacts (⭐12, Issues: 0)
+  - conf-archive (⭐1, Issues: 0)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetHighestRatedRepository" classname="tests.SeleniumHQTest" time="0.237">
+    <system-out><![CDATA[
+=== Highest Rated Repository ===
+Name: selenium
+Stars: 33818
+URL: https://github.com/SeleniumHQ/selenium
+Language: Java
+Open Issues: 236
+]]></system-out>
+  </testcase>
+  <testcase name="testRepositoryHasValidData" classname="tests.SeleniumHQTest" time="0.259"/>
+  <testcase name="testGetSeleniumRepository" classname="tests.SeleniumHQTest" time="0.282">
+    <system-out><![CDATA[Repository details: selenium (⭐33818, Issues: 236)
+]]></system-out>
+  </testcase>
+</testsuite>
